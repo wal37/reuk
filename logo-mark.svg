@@ -1,0 +1,32 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="researchai-bg" x1="18" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D8751"/>
+      <stop offset="1" stop-color="#324826"/>
+    </linearGradient>
+    <linearGradient id="researchai-page" x1="30" y1="34" x2="94" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#E4EED8"/>
+    </linearGradient>
+    <linearGradient id="researchai-page-shadow" x1="44" y1="40" x2="84" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D6E4C4"/>
+      <stop offset="1" stop-color="#C0D2A9"/>
+    </linearGradient>
+    <linearGradient id="researchai-pen" x1="68" y1="28" x2="98" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2E7C8"/>
+      <stop offset="1" stop-color="#C7AE72"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#researchai-bg)"/>
+  <path d="M31 43.5C31 39.4 34.4 36 38.5 36H57C62.7 36 67.4 38.1 71 42.2C74.6 38.1 79.3 36 85 36H89.5C93.6 36 97 39.4 97 43.5V88.5C97 92.1 94.1 95 90.5 95H84C79 95 74.3 96.6 71 99.6C67.7 96.6 63 95 58 95H37.5C33.9 95 31 92.1 31 88.5V43.5Z" fill="url(#researchai-page)"/>
+  <path d="M38.5 42H57C61.7 42 65.6 43.4 68.5 46.3V91.9C65.2 90.1 61.5 89.2 57.4 89.2H38.5C37.6 89.2 37 88.5 37 87.7V43.5C37 42.7 37.6 42 38.5 42Z" fill="url(#researchai-page-shadow)"/>
+  <path d="M89.5 42H85C80.3 42 76.4 43.4 73.5 46.3V91.9C76.8 90.1 80.5 89.2 84.6 89.2H89.5C90.4 89.2 91 88.5 91 87.7V43.5C91 42.7 90.4 42 89.5 42Z" fill="#F7FBF1"/>
+  <path d="M43 52H62" stroke="#6D8751" stroke-width="4.2" stroke-linecap="round"/>
+  <path d="M43 61H62" stroke="#6D8751" stroke-width="4.2" stroke-linecap="round" opacity="0.78"/>
+  <path d="M43 70H58" stroke="#6D8751" stroke-width="4.2" stroke-linecap="round" opacity="0.58"/>
+  <path d="M79.3 30.5L96.4 47.6L75 69L63.1 71L65.1 59.1L79.3 30.5Z" fill="url(#researchai-pen)"/>
+  <path d="M79.3 30.5L87.9 39.1L65.1 59.1L79.3 30.5Z" fill="#F7EED7"/>
+  <path d="M63.1 71L66.2 67.9L67.8 69.5L63.1 71Z" fill="#324826"/>
+  <path d="M87.9 39.1L92.8 34.2C94.7 32.3 97.7 32.3 99.6 34.2L101.7 36.3C103.6 38.2 103.6 41.2 101.7 43.1L96.4 47.6L87.9 39.1Z" fill="#324826"/>
+  <path d="M71 46V99.2" stroke="#6D8751" stroke-width="3.6" stroke-linecap="round"/>
+</svg>

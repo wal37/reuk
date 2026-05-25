@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Researcher access page for ResearchAI.">
+  <title>Researcher Login | ResearchAI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-grid"></div>
+  <header class="site-header">
+    <div class="shell header-stack">
+      <div class="header-inline">
+        <a class="brand-link" href="./index.html" aria-label="ResearchAI home">
+          <img class="brand-mark" src="logo-mark.svg" alt="ResearchAI logo">
+          <div class="brand-copy">
+            <span class="brand-name">ResearchAI</span>
+          </div>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span>Menu</span>
+        </button>
+        <nav class="main-nav" id="primary-nav" aria-label="Primary navigation">
+          <a href="./index.html#platform">Platform</a>
+          <a href="./index.html#network">Network</a>
+          <a href="./index.html#participants">Participants</a>
+          <a href="./index.html#studies">Studies</a>
+          <a href="./participant-signup.html">Join</a>
+          <a href="./researcher-login.html">Workspace</a>
+        </nav>
+        <div class="header-context" aria-hidden="true">
+          <span class="header-context-label">Research Infrastructure</span>
+          <strong>Built for participant, study, and AI workflows</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="shell auth-shell">
+        <div class="section-head auth-copy">
+          <span class="section-kicker">Research teams</span>
+          <h1>Enter the workspace for controlled study operations.</h1>
+          <p>Access the environment used to review applicants, manage contributor cohorts, assign studies, and monitor operational quality.</p>
+        </div>
+        <form class="contact-form auth-form" action="#" method="post">
+          <label>
+            <span>Work email</span>
+            <input type="email" name="email" placeholder="name@organization.org" required>
+          </label>
+          <label>
+            <span>Password</span>
+            <input type="password" name="password" placeholder="Enter password" required>
+          </label>
+          <button class="button button-solid" type="submit">Access Workspace</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-shell">
+      <div class="footer-brand">
+        <img class="brand-mark" src="logo-mark.svg" alt="ResearchAI logo">
+        <div class="footer-brand-copy">
+          <strong>ResearchAI</strong>
+          <p>Research operations infrastructure for contributors, studies, trust controls, and repeat-ready participant networks.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html">Home</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+        <p class="footer-links-address">75 Shelton Street, London, England</p>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <p class="footer-copyright">© 2026 ResearchAI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
